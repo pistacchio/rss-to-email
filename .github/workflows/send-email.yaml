@@ -2,7 +2,7 @@ name: Send email
 
 on:
   schedule:
-    - cron: '30 4 * * *'
+    - cron: '15 8 * * *'
   workflow_dispatch:
 
 jobs:
