@@ -3,6 +3,7 @@ on: workflow_dispatch
 shell: bash
 jobs:
   test:
+	runs-on: ubuntu-latest
     steps:
       - run: echo ${{ vars.SMTP_SERVER }}
       - run: echo ${{ vars.SMTP_PORT }}
