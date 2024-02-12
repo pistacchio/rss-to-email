@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   test:
     steps:
-      run: echo ${{ vars.SMTP_SERVER }}
-      run: echo ${{ vars.SMTP_PORT }}
-      run: echo ${{ vars.SMTP_PORT }}
-      run: echo ${{ secrets.SMTP_PASSWORD }}
+      - run: echo ${{ vars.SMTP_SERVER }}
+      - run: echo ${{ vars.SMTP_PORT }}
+      - run: echo ${{ vars.SMTP_PORT }}
+      - run: echo ${{ secrets.SMTP_PASSWORD }}
