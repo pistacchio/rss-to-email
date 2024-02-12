@@ -1,0 +1,6 @@
+name: Test
+  run: |
+    echo ${{ vars.SMTP_SERVER }}
+    echo ${{ vars.SMTP_PORT }}
+    echo ${{ vars.SMTP_PORT }}
+    echo ${{ secrets.SMTP_PASSWORD }}
