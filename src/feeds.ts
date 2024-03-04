@@ -1,4 +1,4 @@
 export const feeds = [
-  // Godot engine
-  'https://godotengine.org/rss.xml'
+  'https://godotengine.org/rss.xml',
+  'https://dbushell.com/rss.xml'
 ]
